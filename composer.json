@@ -1,0 +1,25 @@
+{
+    "name": "bpato/tareados",
+    "type": "prestashop-module",
+    "authors": [
+        {
+            "name": "Brais Pato",
+            "email": "braispato@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "controllers",
+            "tareados.php"
+        ]
+    },
+    "require": {},
+    "config": {
+        "platform": {
+            "php": "7.3.0"
+        },
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "prepend-autoloader": false
+    }
+}
